@@ -1,0 +1,15 @@
+/workspaces/Commons/TaskExceptions/bin/Debug/net7.0/TaskExceptions
+/workspaces/Commons/TaskExceptions/bin/Debug/net7.0/TaskExceptions.deps.json
+/workspaces/Commons/TaskExceptions/bin/Debug/net7.0/TaskExceptions.runtimeconfig.json
+/workspaces/Commons/TaskExceptions/bin/Debug/net7.0/TaskExceptions.dll
+/workspaces/Commons/TaskExceptions/bin/Debug/net7.0/TaskExceptions.pdb
+/workspaces/Commons/TaskExceptions/obj/Debug/net7.0/TaskExceptions.csproj.AssemblyReference.cache
+/workspaces/Commons/TaskExceptions/obj/Debug/net7.0/TaskExceptions.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Commons/TaskExceptions/obj/Debug/net7.0/TaskExceptions.AssemblyInfoInputs.cache
+/workspaces/Commons/TaskExceptions/obj/Debug/net7.0/TaskExceptions.AssemblyInfo.cs
+/workspaces/Commons/TaskExceptions/obj/Debug/net7.0/TaskExceptions.csproj.CoreCompileInputs.cache
+/workspaces/Commons/TaskExceptions/obj/Debug/net7.0/TaskExceptions.dll
+/workspaces/Commons/TaskExceptions/obj/Debug/net7.0/refint/TaskExceptions.dll
+/workspaces/Commons/TaskExceptions/obj/Debug/net7.0/TaskExceptions.pdb
+/workspaces/Commons/TaskExceptions/obj/Debug/net7.0/TaskExceptions.genruntimeconfig.cache
+/workspaces/Commons/TaskExceptions/obj/Debug/net7.0/ref/TaskExceptions.dll
