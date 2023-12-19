@@ -1,3 +1,4 @@
+namespace Enumerables;
 public class CustomEnumerator<T> : IEnumerator<T> where T : ICustomTypes
 {
     private readonly T[] _generalData;
