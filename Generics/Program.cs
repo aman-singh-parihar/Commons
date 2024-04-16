@@ -61,39 +61,6 @@
             }
         }
     }
-    interface ISpecification<T>
-    {
-        
-        bool IsSatisfied(T t);
-    }
-    internal class ColorSpecification : ISpecification<Product>
-    {
-        public Color Color { get; set; }
-        public ColorSpecification(Color color)
-        {
-            Color = color;
-        }
-        public bool IsSatisfied(Product t) => Color == t.Color;
-    }
-    internal class SizeSpecification : ISpecification<Product>
-    {
-        public Size Size { get; set; }
-        public SizeSpecification(Size size)
-        {
-            Size = size;
-        }
-        public bool IsSatisfied(Product t) => Size == t.Size;
-    }
-    internal class DiscountSpecification : ISpecification<Product>
-    {
-        public Discount Discount { get; set; }
-        public DiscountSpecification(Discount discount)
-        {
-            Discount = discount;
-        }
-        public bool IsSatisfied(Product t) => Discount == t.Discount;
-    }
-
     internal class Product
     {
         public int Id { get; set; }
