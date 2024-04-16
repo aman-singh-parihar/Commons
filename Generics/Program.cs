@@ -46,21 +46,6 @@
             Console.WriteLine($"Type of a: {typeof(T)}");
         }
     }
-    interface IProductFilter
-    {
-        IEnumerable<Product> Filter(IEnumerable<Product> products, ISpecification<Product> specification);
-    }
-    internal class ProductFilter : IProductFilter
-    {
-        public IEnumerable<Product> Filter(IEnumerable<Product> products, ISpecification<Product> specification)
-        {
-            foreach (var product in products)
-            {
-                if(specification.IsSatisfied(product))
-                    yield return product;
-            }
-        }
-    }
     internal class Product
     {
         public int Id { get; set; }
